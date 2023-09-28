@@ -85,9 +85,9 @@ document.addEventListener("DOMContentLoaded", function () {
     Award Status:<br /><br /><br />
   `;
 
-    stu++;
     hideDeleteEditColumns();
     alert(`Student ${stu} Record added successfully`);
+    stu++;
   });
 
   document.getElementById("myTable").addEventListener("change", (event) => {
